@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-md-12 title">
+    <h1>Nyhetsflöde</h1>
+    <hr class="hr-title">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <p class="news-description-text">
+      Här postas inlägg rörande händelser inom Gamla Postvägens samfällighetsförening.
+    </p>
+  </div>
+</div>
+
+<div id="news-row" class="row">
+  <form id="post-form" style="display:none; margin-bottom:70px;" class="form-horizontal well well-lg" enctype="multipart/form-data">
+    <fieldset>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <legend>Skapa inlägg</legend>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="input-post-title" class="col-lg-2 control-label">Rubrik:</label>
+        <div class="col-lg-10">
+          <input type="text" name="postTitle" class="form-control" id="input-post-title" placeholder="Skriv rubrik för inlägg">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="input-post-content" class="col-lg-2 control-label">Text:</label>
+        <div class="col-lg-10">
+          <textarea id="input-post-content" name="postContent" class="form-control" rows="10" placeholder="Skriv text för inlägget"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+          <label style="margin-top:0px;" for="input-post-image">Lägg till bild</label>
+          <input type="file" name="image" class="form-control" id="input-post-image" value="Ladda upp bild"><br>
+          <input style="float:right; margin-top:5px;" id="new-postBtn" type="button" class="btn btn-primary" value="Posta">
+        </div>
+      </div>
+
+      <div id="image_preview">
+
+      </div>
+
+    </fieldset>
+  </form>
+</div>
+
+<div class='row' id="no-posts" style="display:none">
+  <div class='col-md-12' style='text-align:center;'>
+    <p style="font-size:20px; font-style: italic;">Det finns inga inlägg publicerade</p>
+  </div>
+</div>

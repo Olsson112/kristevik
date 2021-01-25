@@ -1,0 +1,168 @@
+html{
+  overflow-y: scroll;
+}
+
+.postImg{
+
+  max-width: 800px;
+  max-height: 600px;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+.postImgBox{
+  text-align: center;
+}
+
+.navbar-custom {
+    margin: 0 auto;
+    background-color: white;
+    border-width: thin;
+    border-color:grey;
+}
+
+body {
+    background: url('https://unsplash.it/1920/1080/?random&blur') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Lora', serif;
+}
+
+.modal-open[style] {
+   padding-right: 0px !important;
+}
+
+.contact-header{
+  margin-top: 40px;
+}
+
+.main-container {
+    align-content: center;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    border-radius: 15px;
+}
+
+.content-container{
+    margin: 0 auto;
+    margin-top:30px;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.news-post {
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.news-post-title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.news-post-metadata {
+  font-size: 10px;
+  color: grey;
+  text-align:center;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: grey;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.news-post-text {
+  margin-top: 15px;
+}
+
+.news-description-text {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+    text-align:center;
+    margin-bottom:5%;
+    margin-top:10px;
+}
+
+.hr-title {
+  margin-top: 2%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.about-image-1 {
+  width:25vw;
+  heigth:25vh;
+  border-radius: 5%;
+  margin-top:60px;
+}
+
+.about-image-2 {
+  width:25vw;
+  heigth:25vh;
+  border-radius: 5%;
+  margin-bottom:30px;
+}
+
+.dropbox-image {
+  height: 8%;
+  width: 70%;
+  cursor: pointer;
+  position: relative;
+  bottom: 0;
+}
+
+.contact-image {
+  width:100%;
+  height:55%;
+  border-radius: 5%;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.about-text {
+  font-size: 13px;
+}
+
+.contact-table {
+  margin-top: 30px;
+}
+
+.map {
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bottom-margin-0 {
+  margin-bottom: 0;
+}

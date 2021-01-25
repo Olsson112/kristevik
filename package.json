@@ -1,0 +1,15 @@
+{
+  "name": "kristevik",
+  "version": "1.0.0",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Olsson",
+  "license": "ISC",
+  "dependencies": {
+    "froala-editor": "^2.4.1",
+    "tinymce": "^4.5.3"
+  },
+  "description": ""
+}
